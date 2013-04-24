@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <app title="EpicSpaceStunts" file="EpicSpaceStunts" main="com.brodavi.epicspacestunts.Main"/>
+    <icon path="assets/.working/icon.svg"/>
+    <window width="640" height="480" background="#222222" />
+    <classpath name="src" />
+    <classpath name="lib" />
+    <set name="BUILD_DIR" value="Export" />
+    <assets path="assets" include="*.png" type="image" />
+    <assets path="assets" include="*.mp3" type="sound" />
+    <assets path="assets" include="*.wav" type="sound" />
+    <haxelib name="actuate" />
+    <haxelib name="nme" />
+    <haxeflag name="-D haxe210" />
+    <ndll name="nme" haxelib="nme" />
+</project>
